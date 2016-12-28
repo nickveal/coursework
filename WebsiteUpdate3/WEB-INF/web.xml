@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	
+	<servlet>
+		<servlet-name>Login Name</servlet-name>
+		<servlet-class>Login</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Login Name</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CustomerEdit Name</servlet-name>
+		<servlet-class>CustomerEdit</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CustomerEdit Name</servlet-name>
+		<url-pattern>/CustomerEdit</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CustomerAdd Name</servlet-name>
+		<servlet-class>CustomerAdd</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CustomerAdd Name</servlet-name>
+		<url-pattern>/CustomerAdd</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CustomerRemove Name</servlet-name>
+		<servlet-class>CustomerRemove</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CustomerRemove Name</servlet-name>
+		<url-pattern>/CustomerRemove</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CarEdit Name</servlet-name>
+		<servlet-class>CarEdit</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CarEdit Name</servlet-name>
+		<url-pattern>/CarEdit</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CarAdd Name</servlet-name>
+		<servlet-class>CarAdd</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CarAdd Name</servlet-name>
+		<url-pattern>/CarAdd</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CarRemove Name</servlet-name>
+		<servlet-class>CarRemove</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CarRemove Name</servlet-name>
+		<url-pattern>/CarRemove</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ServiceRemove Name</servlet-name>
+		<servlet-class>ServiceRemove</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ServiceRemove Name</servlet-name>
+		<url-pattern>/ServiceRemove</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ServiceEdit Name</servlet-name>
+		<servlet-class>ServiceEdit</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ServiceEdit Name</servlet-name>
+		<url-pattern>/ServiceEdit</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ServiceAdd Name</servlet-name>
+		<servlet-class>ServiceAdd</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ServiceAdd Name</servlet-name>
+		<url-pattern>/ServiceAdd</url-pattern>
+	</servlet-mapping>
+	
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+	
+	<welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>
